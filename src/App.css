@@ -1,0 +1,21 @@
+.container-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tittle {
+    font-size: 21px;
+    color: olivedrab;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(252, 111, 158);
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}

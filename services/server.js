@@ -10,4 +10,12 @@ app.use('/login', (req,res) => {
     })
 })
 
+app.use('/register', (req,res) => {
+    res.send({
+        username: 'Ok',
+        email: 'Ok',
+        message: 'Register successfully'
+    })
+})
+
 app.listen(3001, () => console.log('API is running on http://localhost:3001/login'))
